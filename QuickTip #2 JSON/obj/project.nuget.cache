@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZrU9w8ci1gM=",
+  "success": true,
+  "projectFilePath": "/Users/sanyabhadri/Desktop/CS-120/Week 8/Week 8.vbproj",
+  "expectedPackageFiles": [
+    "/Users/sanyabhadri/.nuget/packages/newtonsoft.json/13.0.4/newtonsoft.json.13.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

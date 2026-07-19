@@ -1,0 +1,17 @@
+/Users/sanyabhadri/Desktop/CS-120/Week 8/obj/Debug/net10.0/Week 8.vbproj.AssemblyReference.cache
+/Users/sanyabhadri/Desktop/CS-120/Week 8/obj/Debug/net10.0/Week 8.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sanyabhadri/Desktop/CS-120/Week 8/obj/Debug/net10.0/Week 8.AssemblyInfoInputs.cache
+/Users/sanyabhadri/Desktop/CS-120/Week 8/obj/Debug/net10.0/Week 8.AssemblyInfo.vb
+/Users/sanyabhadri/Desktop/CS-120/Week 8/obj/Debug/net10.0/Week 8.vbproj.CoreCompileInputs.cache
+/Users/sanyabhadri/Desktop/CS-120/Week 8/bin/Debug/net10.0/Week 8
+/Users/sanyabhadri/Desktop/CS-120/Week 8/bin/Debug/net10.0/Week 8.deps.json
+/Users/sanyabhadri/Desktop/CS-120/Week 8/bin/Debug/net10.0/Week 8.runtimeconfig.json
+/Users/sanyabhadri/Desktop/CS-120/Week 8/bin/Debug/net10.0/Week 8.dll
+/Users/sanyabhadri/Desktop/CS-120/Week 8/bin/Debug/net10.0/Week 8.pdb
+/Users/sanyabhadri/Desktop/CS-120/Week 8/bin/Debug/net10.0/Newtonsoft.Json.dll
+/Users/sanyabhadri/Desktop/CS-120/Week 8/obj/Debug/net10.0/Week 8.vbproj.Up2Date
+/Users/sanyabhadri/Desktop/CS-120/Week 8/obj/Debug/net10.0/Week 8.dll
+/Users/sanyabhadri/Desktop/CS-120/Week 8/obj/Debug/net10.0/refint/Week 8.dll
+/Users/sanyabhadri/Desktop/CS-120/Week 8/obj/Debug/net10.0/Week 8.pdb
+/Users/sanyabhadri/Desktop/CS-120/Week 8/obj/Debug/net10.0/Week 8.genruntimeconfig.cache
+/Users/sanyabhadri/Desktop/CS-120/Week 8/obj/Debug/net10.0/ref/Week 8.dll
