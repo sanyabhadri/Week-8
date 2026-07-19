@@ -1,0 +1,91 @@
+# Week 8 Application Change Log
+
+## App Name
+    BeatBridge
+    
+
+## Previous Version
+My previous Folder Maker App could:
+- Automatically create the folder structure for the BeatBridge project.
+- Generate folders for source code, assets, screenshots, and documentation.
+- Save time by organizing project files before development began.
+
+
+## New Version
+This version adds:
+- JSON saving: The application now saves BeatBridge project information into a Project.json file using JSON serialization. The JSON 
+file stores project details such as the project name and other project data so it can be loaded and used later.
+
+- NuGet/package use: The application uses the Newtonsoft.Json NuGet package to serialize and deserialize BeatBridge project data.
+
+- File save location: The application creates the BeatBridge project folder on the user's Desktop using the project name entered by 
+the user. The JSON file is saved inside the project's Data\JSON folder.
+
+- Three TODO items completed:
+    Changes Made:
+    - Designed a Project class to hold project-related data.
+    - Implemented JSON serialization and deserialization for saving and loading project information.
+    - Updated the WriteFile procedure to accept content as a parameter.
+    - Moved subfolder creation into its own dedicated procedure.
+    - Added descriptive comments to procedures and functions.
+
+
+## TODO Items I Chose
+1. TODO item:
+   - What I changed: I created a Project class that contains properties such as the project name, music world, mood, playlist details, 
+   genre, description, creation date, and favorite status.
+   - Why it improves the app: Keeping all project information in one class makes the code more organized and simplifies saving and 
+   retrieving project data.
+
+2. TODO item:
+   - What I changed: I used JsonConvert.SerializeObject() to convert the Project object into JSON format and save it as a file.
+   - Why it improves the app: Saving data as JSON allows the application to preserve project information in a structured format that 
+   can be accessed again later.
+
+3. TODO item:
+   - What I changed: I modified the WriteFile procedure so it receives the file name, file location, and the text to be written as parameters.
+   - Why it improves the app: This makes the procedure more flexible since it can now write different types of content instead of being 
+   limited to a single hard-coded message.
+
+
+## Functions And Procedures I Commented
+- Name: CreateSubFolders
+    - Purpose: Generates all of the folders needed for the BeatBridge project, including documentation, assets, data, audio, playlists, and screenshots.
+    - Inputs: None.
+    - Output or result: Creates the complete project folder structure.
+
+- Name: WriteFile
+    - Purpose: Writes text or JSON content to a file.
+    - Inputs: File name, file location, and the data to write.
+    - Output or result: Creates or updates the specified file.
+
+- Name: SaveProjectJSON
+    - Purpose: Stores the current project information in a JSON file.
+    - Inputs: None.
+    - Output or result: Creates a Project.json file with the project's saved data
+
+- Name: LoadProjectJSON
+    - Purpose: Reads project information from an existing JSON file.
+    - Inputs: Path to the JSON file.
+    - Output or result: Returns a Project object containing the loaded project information.
+
+- Name: CreateProjectFolder
+    - Purpose: Creates a single folder within the project directory.
+    - Inputs: Parent folder path and the name of the new folder.
+    - Output or result: Adds the specified folder to the project.
+
+
+## Testing Notes
+- What worked: The application successfully creates a BeatBridge project folder on the Desktop and generates all of the required subfolders. It also saves
+ the project information to a Project.json file, and the JSON serialization process correctly stores the project data.
+
+- What failed: During development, the application produced errors because the project directory was not initialized before the folders were created. 
+There were also compilation issues caused by duplicate procedure names and incorrect variable references.
+
+- What I fixed: I added the FullDirectory variable to correctly store the Desktop project path before creating folders. I removed the duplicate folder 
+creation procedures, replaced the incorrect input variable with UserInput, and corrected the JSON saving process so the project data is saved properly.
+
+- What I would improve in version 2.1: In the next version, I would replace the console interface with a graphical user interface to make the application 
+easier to use. I would also allow users to edit existing BeatBridge projects, improve the music recommendation system based on moods and genres, integrate 
+with music streaming services, and add playlist sharing features.
+
